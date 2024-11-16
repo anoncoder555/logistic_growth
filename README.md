@@ -1,8 +1,8 @@
 Complete repository with a reproducible analysis of logistic growth data.
 
-****Answers for reproducible-research_homework below:****
+# Answers for reproducible-research_homework below:
 
-**QUESTION 1:Annotate the README.md file in your logistic_growth repo with more detailed information about the analysis. Add a section on the results and include the estimates for N0, r and K (mention which *.csv file you used).***
+## QUESTION 1: Annotate the README.md file in your logistic_growth repo with more detailed information about the analysis. Add a section on the results and include the estimates for N0, r and K (mention which *.csv file you used).
 
 **Introduction:**
 
@@ -34,7 +34,7 @@ K = 5.979e+10
 
 From section three, the plot of observed experimental data with the fitted logistic growth model showed that the model closely aligned with the data. This suggests that my estimated parameters effectively describe bacterial growth dynamics under the experimental conditions.
 
-
+## QUESTION TWO:  Use your estimates of N0 and r to calculate the population size at t = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
 
 
 
