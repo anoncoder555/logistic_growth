@@ -18,12 +18,16 @@ Section Three:
 In the final section (plot_data_and_model.R), I plotted the observed experimental data with the fitted logistic growth model to visualise how well this model expalins bacterial growth pattterns. I defined the logistic growth model then inputted the parameter estimates for N0, r and K I collected in section two. I used the ggplot2 library to create a plot with my logistic growth model (the red curve) overlayed on the experimental data plot.
 
 **Results:**
+
 From section two, I gained estimates of N0, r and K as follows.
+
 N0 = 986.5075
+
 r = 0.0100086
+
 K = 5.979e+10 
 
-From section three, the plot the observed experimental data with the fitted logistic growth model showed that the model closely aligned with the data. This suggests that my estimated parameters effectively describe bacterial growth dynamics under the experimental conditions.
+From section three, the plot of observed experimental data with the fitted logistic growth model showed that the model closely aligned with the data. This suggests that my estimated parameters effectively describe bacterial growth dynamics under the experimental conditions.
 
 
 
