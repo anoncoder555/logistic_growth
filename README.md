@@ -12,7 +12,7 @@ In this logistic growth analysis, I used the data "experiment.csv" which contain
 
 Section One:
 
-In my first section (plot_data.R) I used the ggplot2 library to visualise the raw data. I first plotted the raw data of population size (N) on the y axis against time (t) on the x axis on a linear scale to observe the overall growth trend. This produces a sigmoidal curve where population starts low, grows expontentially then plauteaus at a carrying capacity, consistent with a logistic growth curve. In a second plot I applied a logarithmic transformation to population size so that I had a semi-log plot (x axis linear and y axis log-transformed). This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant. 
+In my first section (plot_data.R) I used the ggplot2 library to visualise the raw data. I first plotted the raw data of population size (N) on the y axis against time (t) on the x axis on a linear scale to observe the overall growth trend. This produces a sigmoidal curve where population starts low, grows expontentially then plauteaus at a carrying capacity, consistent with a logistic growth curve. Logistic growth curves have three main phases: the lag phase where the population is small and hence population growth is slow, the exponential growth phase which is a period of rapid growth and the saturation phase where growth rate descreases as the population reaches its carrying capacity. In a second plot I applied a logarithmic transformation to population size so that I had a semi-log plot (x axis linear and y axis log-transformed). This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant at the carrying capacity. 
 
 Section Two:
 
@@ -37,9 +37,9 @@ From section three, the plot of observed experimental data with the fitted logis
 ## Q2:  Use your estimates of N0 and r to calculate the population size at t = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
 
 **Working out:**
-During exponential growth, K is much larger than N0 and t is small. As we are assuming population growth is exponential, we can use the equation N(t) = N0e^rt.
+During exponential growth, K is much larger than N0 and t is small. As we are assuming population growth is exponential, we can use the equation N(t) = N<sub>0</sub>e<sup>rt</sup>.
 
-N0 = 986.5075
+N<sub>0</sub> = 986.5075
 
 r = 0.0100086
 
