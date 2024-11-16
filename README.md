@@ -37,6 +37,7 @@ From section three, the plot of observed experimental data with the fitted logis
 ## Q2:  Use your estimates of *N<sub>0</sub>* and *r* to calculate the population size at *t = 4980 min*, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
 
 **Working out:**
+
 During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation *N<sub>(t)</sub> = N<sub>0</sub>e<sup>rt</sup>*.
 
 *N<sub>0</sub>* = 986.5075
@@ -50,6 +51,7 @@ So... *N(t)* = 986.5075xe^(0.0100086x4980)
 *N(t)* = 4.370846e+24 
 This is astronomically large and exceeds possible biological possibilty. This is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
 
+**Population size under exponential growth**
 
 
 
