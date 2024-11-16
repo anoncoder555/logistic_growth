@@ -43,11 +43,11 @@ During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is smal
 
 *r* = 0.0100086
 
-So... *N<sub>(t)</sub>* = 986.5075xe^(0.0100086x4980)
+So... *N(t)* = 986.5075xe^(0.0100086x4980)
 
 **Answer:**
 
-*N<sub>(t)</sub>* = 4.370846e+24 
+*N(t)* = 4.370846e+24 
 This is astronomically large and exceeds possible biological possibilty. This is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
 
 
