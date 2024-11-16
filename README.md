@@ -1,8 +1,9 @@
 Complete repository with a reproducible analysis of logistic growth data.
 
-Answers for reproducible-research_homework below:
+***Answers for reproducible-research_homework below:***
 
-**QUESTION 1:Annotate the README.md file in your logistic_growth repo with more detailed information about the analysis. Add a section on the results and include the estimates for N0, r and K (mention which *.csv file you used).**
+**QUESTION 1:Annotate the README.md file in your logistic_growth repo with more detailed information about the analysis. Add a section on the results and include the estimates for N0, r and K (mention which *.csv file you used).
+**
 
 **Introduction:**
 
