@@ -55,7 +55,17 @@ This is astronomically large and exceeds possible biological possibilty. This is
 
 **Population size under logistic growth**
 
-The population size under logistic growth can be calculated using the logistic growth equation: N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>
+The population size under logistic growth can be calculated using the logistic growth equation: *N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>*.
+
+*N<sub>0</sub>* = 986.5075
+
+*r* = 0.0100086
+
+*K* = 5.979e+10 
+
+*t* = 4980
+
+So... *N(t)* = 
 
 The population size measured in the experiment at t = 4980, was 59999999983. 
 
