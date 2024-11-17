@@ -44,7 +44,7 @@ During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is smal
 
 *r* = 0.0100086
 
-So... *N(t)* = 986.5075xe^(0.0100086x4980)
+So... *N(t)* = 986.5075xe<sup>0.0100086x4980<sup>
 
 **Answer:**
 
