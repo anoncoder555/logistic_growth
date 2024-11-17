@@ -48,8 +48,6 @@ So... *N(t)* = 986.5075·e<sup>0.0100086·4980<sup>
 
 *N(t)* = 4.370846e+24 
 
-This is astronomically large which is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
-
 **Population size under logistic growth**
 
 The population size under logistic growth can be calculated using the logistic growth equation: *N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>*.
@@ -66,7 +64,10 @@ So... *N(t)* = 986.5075·5.979e+10·e<sup>0.0100086·4980</sup> / 5.979e+10 - 98
 
 *N(t)* = 5.979e+10 
 
-Under logistic growth the population stabilises at the carrying capacity which reflects how population growth behaves under realistic biological constraints. 
+**Compariosn**
+Population growth under exponential growth, *N(t)* = 4.370846e+24, is astronomically large which is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
+
+Under logistic growth the population stabilises at the carrying capacity, *N(t)* = 5.979e+10, which reflects how population growth behaves under realistic biological constraints. 
 
 The population size measured in the experiment at t = 4980, was 59999999983. 
 
