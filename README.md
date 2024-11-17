@@ -38,20 +38,16 @@ From section three, the plot of observed experimental data with the fitted logis
 
 **Population size under exponential growth:**
 
-**Working out:**
-
 During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation *N<sub>(t)</sub> = N<sub>0</sub>e<sup>rt</sup>*.
 
 *N<sub>0</sub>* = 986.5075
 
 *r* = 0.0100086
 
-So... *N(t)* = 986.5075xe<sup>0.0100086x4980<sup>
-
-**Answer:**
+So... *N(t)* = 986.5075·e<sup>0.0100086·4980<sup>
 
 *N(t)* = 4.370846e+24 
-This is astronomically large and exceeds possible biological possibilty. This is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
+This is astronomically large which is expected under an assumption of exponential growth as there is no carrying capacity to limit the maximum population size.  
 
 **Population size under logistic growth**
 
@@ -65,7 +61,9 @@ The population size under logistic growth can be calculated using the logistic g
 
 *t* = 4980
 
-So... *N(t)* = 
+So... *N(t)* = 986.5075·5.979e+10·e<sup>0.0100086·4980</sup> / 5.979e+10 - 986.5075 + 986.5075·e<sup>0.0100086·4980</sup>
+
+*N(t)* = 
 
 The population size measured in the experiment at t = 4980, was 59999999983. 
 
