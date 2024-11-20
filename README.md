@@ -41,7 +41,7 @@ During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is smal
 *N<sub>0</sub>* = 986.5075 \
 *r* = 0.0100086 
 
-So... *N(t)* = 986.5075·e<sup>0.0100086·4980<sup> \
+So... *N(t)* = 986.5075·e<sup>0.0100086·4980</sup> \
 *N(t)* = 4.370846e+24 
 
 **Population size under logistic growth**
