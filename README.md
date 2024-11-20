@@ -46,7 +46,7 @@ So... *N(t)* = 986.5075·e<sup>0.0100086·4980</sup> \
 
 **Population size under logistic growth**
 
-The population size under logistic growth can be calculated using the logistic growth equation: **$`N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>`$**.
+The population size under logistic growth can be calculated using the logistic growth equation: **N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>**.
 
 *N<sub>0</sub>* = 986.5075 \
 *r* = 0.0100086 \
