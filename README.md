@@ -26,10 +26,8 @@ In the final section (plot_data_and_model.R), I plotted the observed experimenta
 
 From section two, I gained estimates of *N<sub>0</sub>*, *r* and *K* as follows.
 
-*N<sub>0</sub>* = 986.5075
-
-*r* = 0.0100086
-
+*N<sub>0</sub>* = 986.5075 \
+*r* = 0.0100086 \
 *K* = 5.979e+10 
 
 From section three, the plot of observed experimental data with the fitted logistic growth model showed that the model closely aligned with the data. This suggests that my estimated parameters effectively describe bacterial growth dynamics under the experimental conditions.
@@ -52,12 +50,9 @@ So... *N(t)* = 986.5075·e<sup>0.0100086·4980<sup>
 
 The population size under logistic growth can be calculated using the logistic growth equation: *N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>*.
 
-*N<sub>0</sub>* = 986.5075
-
-*r* = 0.0100086
-
-*K* = 5.979e+10 
-
+*N<sub>0</sub>* = 986.5075 \
+*r* = 0.0100086 \
+*K* = 5.979e+10 \
 *t* = 4980
 
 So... *N(t)* = 986.5075·5.979e+10·e<sup>0.0100086·4980</sup> / 5.979e+10 - 986.5075 + 986.5075·e<sup>0.0100086·4980</sup>
