@@ -16,7 +16,7 @@ In my first section (plot_data.R) I used the ggplot2 library to visualise the ra
 
 Section Two:
 
-In my next sextion (fit_linear_model.R) I estimated key parameters of the logistic growth model for the same data using a linear approximation. The key parameters were population size (*N<sub>0</sub>*), growth rate (*r*) and carrying capacity (*K*). I focused on two distinct stages of growth from the semi-log plot in section one: the exponential growth phase and the plateau phase. Using this plot I estimated the early growth phase where growth is exponential as *t < 1500*. During exponential growth, *K* is much larger than *N<sub>0</sub>* and *t* is small. At this point the relationship between population size and time can be represented as *ln(N) = ln(N<sub>0</sub>) + rt*. Using only the exponential growth phase (t < 1500), I fitted a linear model, **$`ln(N)~ t`$**, that returned estimates of starting population size as the intercept and growth rate (r). It is important to note that the value returned as starting population size is *ln(N<sub>0</sub>)* and hence to get the true value of *N<sub>0</sub>* we must run *exp(ln(N<sub>0</sub>))*. During the plateau phase, when *t > 2000*, the population has reached its carrying capacity and *N<sub>(t)</sub> = K*. Using a subset of the data, when *t>2000*, I fit another linear model such that *N ~ 1*, this estimates the value of *N* for this subset of data. This returned an estimated value of carrying capacity as *N<sub>(t)</sub> = K*.
+In my next sextion (fit_linear_model.R) I estimated key parameters of the logistic growth model for the same data using a linear approximation. The key parameters were population size (*N<sub>0</sub>*), growth rate (*r*) and carrying capacity (*K*). I focused on two distinct stages of growth from the semi-log plot in section one: the exponential growth phase and the plateau phase. Using this plot I estimated the early growth phase where growth is exponential as *t < 1500*. During exponential growth, *K* is much larger than *N<sub>0</sub>* and *t* is small. At this point the relationship between population size and time can be represented as *ln(N) = ln(N<sub>0</sub>) + rt*. Using only the exponential growth phase (t < 1500), I fitted a linear model, *ln(N)~ t*, that returned estimates of starting population size as the intercept and growth rate (r). It is important to note that the value returned as starting population size is *ln(N<sub>0</sub>)* and hence to get the true value of *N<sub>0</sub>* we must run *exp(ln(N<sub>0</sub>))*. During the plateau phase, when *t > 2000*, the population has reached its carrying capacity and *N<sub>(t)</sub> = K*. Using a subset of the data, when *t>2000*, I fit another linear model such that *N ~ 1*, this estimates the value of *N* for this subset of data. This returned an estimated value of carrying capacity as *N<sub>(t)</sub> = K*.
 
 
 Section Three:
@@ -37,12 +37,8 @@ From section three, the plot of observed experimental data with the fitted logis
 
 **Population size under exponential growth:**
 
-During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation:
-$$
-\ N_(t) = N_0e_rt
-$$
-
-**$`N<sub>(t)</sub> = N<sub>0</sub>e<sup>rt</sup>`$**.
+During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation: /
+*N<sub>(t)</sub> = N<sub>0</sub>e<sup>rt</sup>*.
 
 *N<sub>0</sub>* = 986.5075 \
 *r* = 0.0100086 
@@ -52,7 +48,8 @@ So... *N(t)* = 986.5075·e<sup>0.0100086·4980</sup> \
 
 **Population size under logistic growth**
 
-The population size under logistic growth can be calculated using the logistic growth equation: **N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>**.
+The population size under logistic growth can be calculated using the logistic growth equation: /
+*N(t) = N<sub>0</sub>Ke<sup>rt</sup> / K - N<sub>0</sub> + N<sub>0</sub>e<sup>rt</sup>*.
 
 *N<sub>0</sub>* = 986.5075 \
 *r* = 0.0100086 \
