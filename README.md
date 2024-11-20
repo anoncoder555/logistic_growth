@@ -37,7 +37,7 @@ From section three, the plot of observed experimental data with the fitted logis
 
 **Population size under exponential growth:**
 
-During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation: /
+During exponential growth, K is much larger than *N<sub>0</sub>* and *t* is small. As we are assuming population growth is exponential, we can use the equation: \
 *N<sub>(t)</sub> = N<sub>0</sub>e<sup>rt</sup>*.
 
 *N<sub>0</sub>* = 986.5075 \
