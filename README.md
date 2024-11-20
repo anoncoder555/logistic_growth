@@ -18,6 +18,10 @@ Section Two:
 
 In my next sextion (fit_linear_model.R) I estimated key parameters of the logistic growth model for the same data using a linear approximation. The key parameters were population size (*N<sub>0</sub>*), growth rate (*r*) and carrying capacity (*K*). I focused on two distinct stages of growth from the semi-log plot in section one: the exponential growth phase and the plateau phase. Using this plot I estimated the early growth phase where growth is exponential as *t < 1500*. During exponential growth, *K* is much larger than *N<sub>0</sub>* and *t* is small. At this point the relationship between population size and time can be represented as **$`ln(N) = ln(N<sub>0</sub>) + rt`$**. Using only the exponential growth phase (t < 1500), I fitted a linear model, **$`ln(N)~ t`$**, that returned estimates of starting population size as the intercept and growth rate (r). It is important to note that the value returned as starting population size is *ln(N<sub>0</sub>)* and hence to get the true value of *N<sub>0</sub>* we must run *exp(ln(N<sub>0</sub>))*. During the plateau phase, when *t > 2000*, the population has reached its carrying capacity and *N<sub>(t)</sub> = K*. Using a subset of the data, when *t>2000*, I fit another linear model such that *N ~ 1*, this estimates the value of *N* for this subset of data. This returned an estimated value of carrying capacity as *N<sub>(t)</sub> = K*.
 
+$$
+\ln(N) = \ln(N_0) + rt
+$$
+
 Section Three:
 
 In the final section (plot_data_and_model.R), I plotted the observed experimental data with the fitted logistic growth model to visualise how well this model expalins bacterial growth pattterns. I defined the logistic growth model then inputted the parameter estimates for *N<sub>0</sub>*, *r* and *K* I collected in section two. I used the ggplot2 library to create a plot with my logistic growth model (the red curve) overlayed on the experimental data plot.
