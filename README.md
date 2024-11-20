@@ -66,7 +66,7 @@ Population growth under exponential growth, *N(t)* = 4.37 x 10^24 (2 dp), is ast
 
 The population size measured in the experiment at t = 4980, was 59999999983. 
 
-### Q3: Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the README.md file so it can be viewed in the repo homepage.##
+### Q3: Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the README.md file so it can be viewed in the repo homepage.
 
 Code for this question can be found in "compare_growth_curves.R".
 
