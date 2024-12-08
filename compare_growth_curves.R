@@ -1,3 +1,5 @@
+# Script to plot a comparison curve of exponential and logistic growth
+
 # Load libraries 
 
 library(ggplot2)
@@ -28,6 +30,7 @@ logistic_growth_size <- logistic_growth(t, N0, K, r)
 exp_growth_size <- exp_growth(t, N0, r)
 
 # Create a data frame for plotting
+
 growth_data <- data.frame(
   Time = t,
   Logistic = logistic_growth_size,
@@ -38,8 +41,8 @@ growth_data <- data.frame(
 
   
 ggplot(growth_data, aes(x=Time)) +
-  geom_line(aes(y = Logistic, color = "Logistic"), size = 0.8) +
-  geom_line(aes(y = Exponential, color = "Exponential"), size = 0.8) +
+  geom_line(aes(y = Logistic, color = "Logistic"), linewidth = 0.8) +
+  geom_line(aes(y = Exponential, color = "Exponential"), linewidth = 0.8) +
   scale_y_continuous(trans = 'log10') +
   labs(
     title = "Comparison of Exponential and Logistic Growth Curves",
