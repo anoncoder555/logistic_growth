@@ -16,6 +16,7 @@ In a second plot I applied a logarithmic transformation to population size so th
 
 Section Two:
 
+
 Section Three:
 
 **Results**
@@ -24,7 +25,8 @@ From my analysis, I got values of...
 
 ### Q2 Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
 
-
+astronocially large - exponential growth - no limit to resources/ population size.
+consistent with growth with biological resitrictions.
 
 ### Q3 Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
 
