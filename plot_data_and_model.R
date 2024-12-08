@@ -1,4 +1,4 @@
-#Script to plot data and model
+# Script to plot data and model
 
 growth_data <- read.csv("experiment.csv")
 
@@ -8,9 +8,9 @@ logistic_fun <- function(t) {
   
   return(N)
   
-} # sets up paramters of linear model
+} # This code sets up parameters of linear model
 
-N0 <- exp(6.8941709) # Intecept / ln(N0) from linear model so to get N0 we use exp()
+N0 <- exp(6.8941709) # Intercept / ln(N0) from linear model so to get N0 we use exp()
 
 r <- 0.0100086
 
