@@ -1,4 +1,6 @@
-#Script to plot the logistic growth data
+# Script to plot the logistic growth data
+
+# Import the dataset
 
 growth_data <- read.csv("experiment.csv")
 
