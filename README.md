@@ -30,7 +30,7 @@ From my analysis, I got values of...
 
 The R code for this question can be found under the file named "compare_growth_curves.R" in my logistic growth repository. 
  <p align="center">
-     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/comparison_curves.png?raw=true" width="600" height="500">
+     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/comparison_curves.png?raw=true">
   </p>
   
 
