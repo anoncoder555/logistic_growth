@@ -4,7 +4,7 @@
 
 #### Introduction
 
-In this analysis, I used the data "experiment.csv" which contained raw growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
+In this analysis, I used the data "experiment.csv" which contained growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
 
 #### Methods
 
