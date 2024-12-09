@@ -15,7 +15,7 @@ In a second plot I applied a logarithmic transformation to population size so th
 
 
 Section Two: \
-In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the simplified growth equation $N(t) = N_0e(^rt)$.
+In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the simplified growth equation $N(t) = N_0e<sup>rt</sup>$.
 
 
 Section Three:
