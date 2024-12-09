@@ -14,7 +14,8 @@ In my first section (plot_data.R) I used the ggplot library to visualise the raw
 In a second plot I applied a logarithmic transformation to population size so that I had a semi-log plot (x axis linear and y axis log-transformed). This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant.
 
 
-Section Two:
+Section Two: \
+In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. In the first case ($K$ > $N_0$, $t$ is small), we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500 
 
 
 Section Three:
