@@ -40,7 +40,7 @@ In the third section (plot_data_and_model.R), I visualised the growth data and o
 
 #### Results
 
-From my analysis, I got estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). \
+From my analysis, I estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). \
 $N_0$ = exp(6.8941709) = 986.5075 \
 $r$ = 0.0100086 \
 $K$ = 5.979 × 10<sup>10</sup> 
