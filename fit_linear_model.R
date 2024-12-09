@@ -1,4 +1,4 @@
-#Script to estimate the model parameters using a linear approximation
+# Script to estimate the model parameters using a linear approximation
 
 # install.packages("dplyr")
 library(dplyr)
@@ -26,7 +26,7 @@ data_subset2 <- growth_data %>% filter(t>2000)
 model2 <- lm(N ~ 1, data_subset2)
 summary(model2)
 
-# the output of this model shows that the carrying capacity 
-#of this population model is 5.979e+10
+# The output of this model shows that the carrying capacity 
+# of this population model is 5.979e+10
 
 
