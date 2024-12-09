@@ -2,7 +2,7 @@
 
 ### Q1: Annotate the **README.md** file in your `logistic_growth` repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (mention which *.csv file you used).
 
-#### Introduction
+#### <u>Introduction </u>
 
 In this analysis, I used the data "experiment.csv" which contained raw growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
 
