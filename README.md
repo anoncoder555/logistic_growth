@@ -17,6 +17,9 @@ In my first section (plot_data.R) I used the ggplot library to visualise the raw
 
 In a second plot I applied a logarithmic transformation to population size, creating a semi-log plot, with a linear x axis and log-transformed y axis. This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant.
 
+ <p align="center">
+     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot2.png?raw=true">
+  </p>
 
 **Section Two:** \
 In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. 
