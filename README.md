@@ -59,7 +59,7 @@ Under logistic growth, the population has reached its maximum size, as limited b
 
 $N(t)$ = 5.979 × 10<sup>10</sup> 
 
-**Comparison of Population Sizes:** \
+**Comparison of Population Sizes:** 
 
 The population size predicted under exponential growth (4.37 × 10<sup>24</sup>) is much greater than the population size predicted under logistic growth (5.979 × 10<sup>10</sup>). The exponential growth population size is astronomically large, which is expected as exponential growth assumes the population grows without limit due to infinite resources in the absences of a carrying capacity. In contrast, the logistic growth population size is much smaller and more realistic. Under logistic growth, population size is limited by density dependant factors such that population growth slows as resources become scarce. Logistic growth estimations are much more consistent with growth under biological restrictions. 
 
