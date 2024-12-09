@@ -34,6 +34,10 @@ In the second case where $N(t)$ = $K$, I focused on where growth stabillises at 
 **Section Three:** \
 In the third section (plot_data_and_model.R), I visualised the growth data and overlaid the fitted logistic growth model to assess the alignment between the observed data and the theoretical predictions. The parameters for the logistic growth function ($N_0$, $r$, $K$) were extracted from the linear approximations in Section Two. This visualisation allowed a direct comparison between the observed data and predictions. The model prediction aligned well with the observed data suggesting that population growth of this isolate of bacteria *Escherichia coli* follows a typical logistic growth pattern. 
 
+<p align="center">
+     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/data_model_plot.png?raw=true" width="400" height="300" alt="Data & Model Plot">
+  </p>
+
 #### Results
 
 From my analysis, I got estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). \
