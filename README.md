@@ -2,7 +2,7 @@
 
 ### Q1: Annotate the **README.md** file in your `logistic_growth` repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (mention which *.csv file you used).
 
-**<u>Introduction </u>**
+#### Introduction
 
 In this analysis, I used the data "experiment.csv" which contained raw growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
 
@@ -17,10 +17,10 @@ In a second plot I applied a logarithmic transformation to population size, crea
 **Section Two:** \
 In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. 
 
-***1. Exponential Growth Phase*** \
+*1. Exponential Growth Phase* \
 In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the exponential growth equation $N(t)$ = $N_0$ $e$<sup>rt</sup>. I took the natural logarithm to make this equation linear, $ln(N(t))$ = $ln(N_0)$ + $rt$. I could then fit a linear model to estimate the starting population size ( $ln(N_0)$ ) from the intercept and the growth rate ($r$) from the gradient. It is important to note that the intercept gives a value for $ln(N_0)$ so to get the value of $N_0$ I applied the exponential. 
 
-***2. Stationary Phase*** \
+*2. Stationary Phase* \
 In the second case where $N(t)$ = $K$, I focused on where growth stabillises at the carrying capacity. This phase happens when $t$ is large so time is filtered to $t$ > 2000. When $t$ is large and the population size remains constant, the carrying capacity can be estimated as the population size during this phase. To achieve this, I fit a linear model $N$ ~ 1, where the intercept gives the value of the carrying capacity. 
 
 
