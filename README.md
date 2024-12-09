@@ -46,7 +46,7 @@ $r$ = 0.0100086 \
 $K$ = 5.979 × 10<sup>10</sup> 
 
 
-### Q2 Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
+### Q2: Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
 
 **Population Size Under Exponential Growth:** \
 To calculate the population size at $t$ = 4980 minutes under the assumption of exponential growth, I substituted my estimated values for $N_0$ and $r$ into the exponential growth equation: \
@@ -64,7 +64,7 @@ $N(t)$ = 5.979 × 10<sup>10</sup>
 The population size predicted under exponential growth (4.37 × 10<sup>24</sup>) is vastly greater than the population size predicted under logistic growth (5.979 × 10<sup>10</sup>). The exponential growth population size is astronomically large, which is expected because exponential growth assumes the population grows without limit due to infinite resources in the absence of a carrying capacity. In contrast, the logistic growth population size is much smaller and more realistic. Under logistic growth, population size is limited by density-dependant factors, which cause population growth to slow as resources become scarce. Unlike exponential growth, logistic growth incorporates biological constraints that regulate population size as the population approaches carrying capacity. Hence, logistic growth predictions are much more consistent with observed population dynamics.
 
 
-### Q3 Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
+### Q3: Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
 
 The R code for this question can be found under the file named "compare_growth_curves.R" in my logistic growth repository. 
  <p align="center">
