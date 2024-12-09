@@ -7,7 +7,7 @@ logistic_fun <- function(t) {
   N <- (N0*K*exp(r*t))/(K-N0+N0*exp(r*t))
   
   return(N)
-  } 
+} 
 # This code sets up parameters of linear model
 
 N0 <- exp(6.8941709) # Intercept = ln(N0) from linear model so to get N0 we use exp()
