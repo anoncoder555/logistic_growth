@@ -55,13 +55,14 @@ $N(t)$ = 986.5075⋅$e$<sup>0.0100086⋅4980</sup> \
 $N(t)$ = 4.37 × 10<sup>24</sup> 
 
 **Population Size Under Logistic Growth:** \
-Under logistic growth, the population growth has reached its maximum size as limited by carrying capacityt at $t$ = 4980 minutes. Therefore the population size predicted under logistic growth at $t$ = 4980 minutes is equal to the carrying capacity. 
+Under logistic growth, the population has reached its maximum size, as limited by carrying capacity, at $t$ = 4980 minutes. Therefore, the population size predicted under logistic growth at $t$ = 4980 minutes is equal to the carrying capacity. 
 
 $N(t)$ = 5.979 × 10<sup>10</sup> 
 
+**Comparison of Population Sizes:** \
 
-astronocially large - exponential growth - no limit to resources/ population size.
-consistent with growth with biological resitrictions.
+The population size predicted under exponential growth (4.37 × 10<sup>24</sup>) is much greater than the population size predicted under logistic growth (5.979 × 10<sup>10</sup>). The exponential growth population size is astronomically large, which is expected as exponential growth assumes the population grows without limit due to infinite resources in the absences of a carrying capacity. In contrast, the logistic growth population size is much smaller and more realistic. Under logistic growth, population size is limited by density dependant factors such that population growth slows as resources become scarce. Logistic growth estimations are much more consistent with growth under biological restrictions. 
+
 
 ### Q3 Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
 
