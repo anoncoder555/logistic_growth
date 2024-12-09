@@ -48,6 +48,10 @@ $K$ = 5.979 × 10<sup>10</sup>
 
 ### Q2 Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
 
+To calculate the population size at $t$ = 4980 minutes under the assumption of exponential growth, I substituted my estimated values for $N_0$ and $r$ into the exponential growth equation: $N(t)$ = $N_0$ $e$<sup>rt</sup>. \
+$N(t)$ = 986.5075⋅$e$<sup>0.0100086⋅4980</sup> \
+$N(t)$ = 4.37 × 10<sup>24</sup> 
+
 astronocially large - exponential growth - no limit to resources/ population size.
 consistent with growth with biological resitrictions.
 
