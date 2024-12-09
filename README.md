@@ -15,7 +15,7 @@ In my first section (plot_data.R) I used the ggplot library to visualise the raw
      <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot1.png?raw=true" width="400" height="300" alt="Plot1">
   </p>
 
-In a second plot I applied a logarithmic transformation to population size, creating a semi-log plot, with a linear x axis and log-transformed y axis. This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant.
+In a second plot I applied a logarithmic transformation to population size, creating a semi-log plot, with a linear x axis and log-transformed y axis. This resulted in a plot within which the expontential growth phase could be visualised as a straight line, until a later point where population size leveled off and remained constant at the carrying capacity.
 
  <p align="center">
      <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot2.png?raw=true" width="400" height="300" alt="Plot2">
