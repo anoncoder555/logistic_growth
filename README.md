@@ -15,7 +15,7 @@ In a second plot I applied a logarithmic transformation to population size so th
 
 
 Section Two: \
-In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the exponential growth equation $N(t)$ = $N_0$ $e$<sup>rt</sup>. I took the natural logarithm to make this equation linear, $ln(N(t))$ = $ln(N_0)$ + $rt$. I could then fit a linear model to estimate the starting population size ( $ln(N_0)$ ) from the intercept and the growth rate ($r$) from the gradient. \
+In the second section (fit_linear_model.R), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, with which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the exponential growth equation $N(t)$ = $N_0$ $e$<sup>rt</sup>. I took the natural logarithm to make this equation linear, $ln(N(t))$ = $ln(N_0)$ + $rt$. I could then fit a linear model to estimate the starting population size ( $ln(N_0)$ ) from the intercept and the growth rate ($r$) from the gradient. It is important to note that the intercept gives a value for $ln(N_0)$ so to get the value of $N_0$ I applied the exponential. \
 In the second case where $N(t)$ = $K$, I focused on where growth stabillises at the carrying capacity. This phase happens when $t$ is large so time is filtered to $t$ > 2000. When $t$ is large and the population size remains constant, the carrying capacity can be estimated as the population size during this phase. To achieve this, I fit a linear model $N$ ~ 1, where the intercept gives the value of the carrying capacity. 
 
 
@@ -27,7 +27,7 @@ In the third section (plot_data_and_model), I visualised the growth data and ove
 From my analysis, I got estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). \
 $N_0$ = exp(6.8941709) = 986.5075 \
 $r$ = 0.0100086 \
-$K$ = 5.979 × 10^10 \
+$K$ = 5.979 × 10<sup>10</sup> 
 
 
 
