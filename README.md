@@ -19,7 +19,7 @@ In the second section (fit_linear_model.R), I applied a linear approximation to 
 In the second case where $N(t)$ = $K$, I focused on where growth stabillises at the carrying capacity. This phase happens when $t$ is large so time is filtered to $t$ > 2000. When $t$ is large and the population size remains constant, the carrying capacity can be estimated as the population size during this phase. To achieve this, I fit a linear model $N$ ~ 1, where the intercept gives the value of the carrying capacity. 
 
 
-Section Three:
+Section Three: \
 In the third section (plot_data_and_model), I visualised the growth data and overlaid the fitted logistic growth model to assess the alignment between the observed data and the theoretical predictions. The parameters for the logistic growth function were extracted from the linear approximations in section two. This visualisation allowed a direct comparison between the observed data and predictions. The model prediction aligned well with the observed data suggesting that population growth of this isolate of bacteria *Escherichia coli* follows a typical logistic growth pattern. 
 
 **Results**
@@ -28,7 +28,6 @@ From my analysis, I got estimated the below values for intial population size ($
 $N_0$ = exp(6.8941709) = 986.5075 \
 $r$ = 0.0100086 \
 $K$ = 5.979 × 10<sup>10</sup> 
-
 
 
 ### Q2 Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
