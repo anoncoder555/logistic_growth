@@ -1,4 +1,4 @@
-#Script to plot the logistic growth data
+# Script to plot the logistic growth data
 
 growth_data <- read.csv("experiment.csv")
 
@@ -22,6 +22,8 @@ ggplot(aes(t,N), data = growth_data) +
   xlab("t") +
   
   ylab("y") +
+
+  theme_bw() +
   
   scale_y_continuous(trans='log10')
 
