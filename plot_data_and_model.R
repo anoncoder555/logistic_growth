@@ -24,7 +24,9 @@ ggplot(aes(t, N), data = growth_data) +
   
   geom_point() +
   
-  scale_y_continuous(trans='log10')
+  scale_y_continuous(trans='log10') +
+  
+  theme_minimal()
 
 ## Commit and push changes to github ##
 
