@@ -1,0 +1,41 @@
+[33mcommit 5ac7e95507ab14b348099b33801af13bc8730e85[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: anoncoder555 <YOUR_EMAILalicegmurray@gmail>
+Date:   Sun Dec 8 16:33:39 2024 +0000
+
+    Updated Code with Labels
+
+[33mcommit 1b04301de129814021728b8512e142308c39f2c3[m
+Author: anoncoder555 <YOUR_EMAILalicegmurray@gmail>
+Date:   Sun Dec 8 16:22:53 2024 +0000
+
+    commit plot
+
+[33mcommit 6500cbdcb4e6fdbd844d0b74147e2fe0fb5a29d5[m
+Author: anoncoder555 <alicegmurray@gmail.com>
+Date:   Sun Nov 17 17:40:52 2024 +0000
+
+    Question 3 Work
+
+[33mcommit 7340520529bbbea5237fa0340b655751b3fd358d[m
+Author: Alice Murray <YOUR_EMAILalicegmurray@gmail>
+Date:   Sat Nov 16 10:51:24 2024 +0000
+
+    Commiting three R scripts (linear models and plots)
+
+[33mcommit 0dc4d6725b16095024bd28a7e4d6dfdbc3221db3[m
+Author: anoncoder555 <alicegmurray@gmail.com>
+Date:   Fri Nov 15 18:38:26 2024 +0000
+
+    Create README.md
+
+[33mcommit eea7c147e70ddb4a4064abc3fd31e01ae5d63c4c[m
+Author: anoncoder555 <alicegmurray@gmail.com>
+Date:   Fri Nov 15 18:37:52 2024 +0000
+
+    Create LICENSE
+
+[33mcommit 2f86e8b8637136b0405899a50cb3d4eeee8c7d34[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: José Gabriel Niño Barreat <7304529+josegabrielnb@users.noreply.github.com>
+Date:   Tue Sep 26 10:46:20 2023 +0100
+
+    Added R scripts to repo.
