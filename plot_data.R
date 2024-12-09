@@ -1,15 +1,13 @@
-# Script to plot the logistic growth data
-<<<<<<< HEAD
-=======
+## Script to plot the logistic growth data ##
 
 # Import the dataset
->>>>>>> 280e0ad5ba9bf1d0afb9fe24df2011029dd3c5e7
 
 growth_data <- read.csv("experiment.csv")
 
 # install.packages("ggplot2")
 library(ggplot2)
 
+# This code plots the untransformed data
 ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
@@ -18,8 +16,9 @@ ggplot(aes(t,N), data = growth_data) +
   
   ylab("y") +
   
-  theme_bw()
+  theme_minimal()
 
+# This code plots the data with a log-transformed y axis
 ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
@@ -30,5 +29,7 @@ ggplot(aes(t,N), data = growth_data) +
 
   theme_bw() +
   
-  scale_y_continuous(trans='log10')
+  scale_y_continuous(trans='log10') +
+  
+  theme_minimal()
 

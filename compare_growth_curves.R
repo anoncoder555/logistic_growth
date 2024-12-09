@@ -1,6 +1,6 @@
-# Script to plot a comparison curve of exponential and logistic growth
+## Script to plot a comparison curve of exponential and logistic growth ##
 
-# Load libraries 
+# Load necessary packages 
 
 library(ggplot2)
 
@@ -39,7 +39,6 @@ growth_data <- data.frame(
 
 # Plot growth curves 
 
-  
 ggplot(growth_data, aes(x=Time)) +
   geom_line(aes(y = Logistic, color = "Logistic"), linewidth = 0.8) +
   geom_line(aes(y = Exponential, color = "Exponential"), linewidth = 0.8) +
