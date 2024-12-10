@@ -22,7 +22,7 @@ In a second plot I applied a logarithmic transformation to population size, crea
   </p>
 
 **Section Two:** \
-In the second section (`fit_linear_model.R`), I applied a linear approximation to estimate the model parameters by focusing on two distinct stages of growth. 
+In the second section (`fit_linear_model.R`), I applied a linear approximation focusing on two distinct stages of growth to estimate my three key parameters ($N_0$, $r$, $K$). 
 
 1. *Exponential Growth Phase* \
 In the first case where $K$ > $N_0$ and $t$ is small, we assume exponential growth, within which the population size is far from carrying capacity in the early growth phase. To capture this phase, time is filtered to $t$ < 1500. At this point the population size can be modelled using the exponential growth equation $N(t)$ = $N_0$ $e$<sup>rt</sup>. I took the natural logarithm to make this equation linear, $ln(N(t))$ = $ln(N_0)$ + $rt$. I could then fit a linear model to estimate the starting population size ( $ln(N_0)$ ) from the intercept and the growth rate ($r$) from the gradient. It is important to note that the intercept represents the value of $ln(N_0)$ so to determine $N_0$ I exponeniated the intercept.
