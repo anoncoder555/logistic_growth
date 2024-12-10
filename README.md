@@ -43,7 +43,7 @@ In the second section (`fit_linear_model.R`), I applied a linear approximation f
 In the third section (`plot_data_and_model.R`), I plotted the growth data and overlaid the fitted logistic growth model to assess the consistency between the observed data and the prediction from my model. The parameters for the logistic growth function ($N_0$, $r$, $K$) were obtained from the linear approximations in Section Two. This visualisation allowed a direct comparison between the observed data (black points) and model prediction (red line). The model prediction aligned well with the observed data suggesting that population growth of this isolate of bacteria *Escherichia coli* follows a typical logistic growth pattern. 
 
 <p align="center">
-     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/data_model_plot.png?raw=true" width="400" height="300" alt="Data & Model Plot">
+     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/3plot.png?raw=true" width="400" height="300" alt="Plot3">
   </p>
 
 #### Results
