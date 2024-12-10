@@ -52,12 +52,12 @@ $K$ = 5.979 × 10<sup>10</sup>
 To calculate the population size at $t$ = 4980 minutes under the assumption of exponential growth, I substituted my estimated values for $N_0$ and $r$ into the exponential growth equation: \
 $N(t)$ = $N_0$ $e$<sup>rt</sup>. \
 $N(t)$ = 986.5075 ⋅ $e$ <sup>0.0100086⋅4980</sup> \
-$N(t)$ = 4.37 × 10<sup>24</sup> 
+$N(t)$ = **4.37 × 10<sup>24</sup>**
 
 **Population Size Under Logistic Growth:** \
 Under logistic growth, the population has reached its maximum size, as limited by carrying capacity, at $t$ = 4980 minutes. Therefore, the population size predicted under logistic growth at $t$ = 4980 minutes is equal to the carrying capacity. 
 
-$N(t)$ = 5.979 × 10<sup>10</sup> 
+$N(t)$ = **5.979 × 10<sup>10</sup>** 
 
 **Comparison of Population Sizes:** 
 
