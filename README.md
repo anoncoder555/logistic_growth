@@ -36,7 +36,7 @@ In the second section (`fit_linear_model.R`), I applied a linear approximation f
 * In the second case where $N(t)$ = $K$, I focused on where growth stabillises at the carrying capacity.
 * This phase happens when $t$ is large so time is filtered to $t$ > 2000.
 * When $t$ is large and the population size remains constant, the carrying capacity can be estimated as the population size during this phase.
-* To achieve this, I fit a linear model $N$ ~ 1, where the intercept gives the value of the carrying capacity. 
+* To achieve this, I fit a linear model $N$ ~ $1$, where the intercept gives the value of the carrying capacity. 
 
 
 **Section Three:** \
