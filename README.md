@@ -66,7 +66,7 @@ The population size predicted under exponential growth (4.37 × 10<sup>24</sup>)
 
 ### Q3: Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
 
-The R code for this question can be found under the file named "compare_growth_curves.R" in my logistic growth repository. 
+The R code for this question can be found under the file `compare_growth_curves.R` in my logistic growth repository. 
  <p align="center">
      <img src="https://github.com/anoncoder555/logistic_growth/blob/main/comparison_curves.png?raw=true" width="600" height="450" alt="Comparison Curves">
   </p>
