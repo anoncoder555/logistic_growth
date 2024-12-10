@@ -12,7 +12,7 @@ In this analysis, I used the data "experiment.csv" which contained growth data o
 In my first section (`plot_data.R`) I used the ggplot library to visualise the raw data. The first plot showed population size ($N$) on the y axis and time ($t$) on the x axis on a linear scale to observe the overall growth trend. This produces a sigmoidal curve where population starts low, grows expontentially, then plateaus at a carrying capacity, consistent with logistic growth. Logistic growth can be broadly divided into three stages: the lag phase, where growth is slow as the initial population size is small, the exponential phase, where the population is larger and resources are abundant so growth accelerates rapidly, and the stationary phase, where growth slows as the population reaches the carrying capacity. 
 
  <p align="center">
-     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot1.png?raw=true" width="400" height="300" alt="Plot1">
+     <img src="https://github.com/user-attachments/assets/19bbf508-895b-4153-9811-a8109e69c2b5" width="400" height="300" alt="Plot1">
   </p>
 
 In a second plot I applied a logarithmic transformation to population size, creating a semi-log plot, with a linear x axis and log-transformed y axis. Within this plot the expontential growth phase can be visualised as a straight line showing rapid growth. At a later point population size levels off and remains constant at the carrying capacity, indicating the stationary phase.
