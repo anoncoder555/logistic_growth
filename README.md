@@ -41,9 +41,9 @@ In the third section (`plot_data_and_model.R`), I visualised the growth data and
 #### Results
 
 From my analysis, I estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). \
-$N_0$ = exp(6.8941709) = 986.5075 \
-$r$ = 0.0100086 \
-$K$ = 5.979 × 10<sup>10</sup> 
+$N_0$ = exp(6.8941709) = **986.5075** \
+$r$ = **0.0100086** \
+$K$ = **5.979 × 10<sup>10</sup>** 
 
 
 ### Q2: Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
