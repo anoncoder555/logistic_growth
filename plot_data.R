@@ -10,22 +10,22 @@ library(ggplot2)
 # This code plots the untransformed data
 ggplot(aes(t,N), data = growth_data) +
   
-  geom_point() +
+  geom_point(color = "navy") +
   
-  xlab("t") +
+  xlab("t (min)") +
   
-  ylab("y") +
+  ylab("N") +
   
   theme_minimal()
 
 # This code plots the data with a log-transformed y axis
 ggplot(aes(t,N), data = growth_data) +
   
-  geom_point() +
+  geom_point(color = "navy") +
   
-  xlab("t") +
+  xlab("t (min)") +
   
-  ylab("y") +
+  ylab("log(N)") +
 
   theme_bw() +
   

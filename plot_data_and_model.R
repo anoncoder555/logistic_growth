@@ -22,9 +22,13 @@ ggplot(aes(t, N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
-  geom_point() +
+  geom_point(color = "navy", alpha = 0.6) +
   
-  scale_y_continuous(trans='log10') +
+  scale_y_continuous(trans='log10') + 
+  
+  xlab("t (min)") +
+  
+  ylab("log(N)") +
   
   theme_minimal()
 
