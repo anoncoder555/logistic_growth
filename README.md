@@ -18,7 +18,7 @@ In my first section (`plot_data.R`) I used the ggplot library to visualise the r
 In a second plot I applied a logarithmic transformation to population size, creating a semi-log plot, with a linear x axis and log-transformed y axis. Within this plot the expontential growth phase can be visualised as a straight line showing rapid growth. At a later point population size levels off and remains constant at the carrying capacity, indicating the stationary phase.
 
  <p align="center">
-     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot2.png?raw=true" width="400" height="300" alt="Plot2">
+     <img src="https://github.com/anoncoder555/logistic_growth/blob/main/2plot.png?raw=true" width="400" height="300" alt="Plot2">
   </p>
 
 **Section Two:** \
