@@ -4,12 +4,12 @@
 
 #### Introduction
 
-In this analysis, I used the data "experiment.csv" which contained growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
+In this analysis, I used the data "experiment.csv" which contained growth data of the bacteria *Escherichia coli* grown in ambient conditions on growth media. The bacteria were cultured in a test tube containing 900 μl of growth media and 100 μl of bacterial suspension. The dataset recorded the population size ($N$) at regular time ($t$) intervals. Using logistic growth analysis, this data was analysed to estimate three key parameters: initial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$).
 
 #### Methods
 
 **Section One:** \
-In my first section (`plot_data.R`) I used the ggplot library to visualise the raw data. The first plot showed population size ($N$) on the y axis and time ($t$) on the x axis on a linear scale to observe the overall growth trend. This produces a sigmoidal curve where population starts low, grows expontentially, then plateaus at a carrying capacity, consistent with logistic growth. Logistic growth can be broadly divided into three stages: the lag phase, where growth is slow as intial population sizes are small, the exponential phase, where the population is larger and growth accelerates rapidly as resources are abundant, and the stationary phase, where growth slows as the population reaches the carrying capacity. 
+In my first section (`plot_data.R`) I used the ggplot library to visualise the raw data. The first plot showed population size ($N$) on the y axis and time ($t$) on the x axis on a linear scale to observe the overall growth trend. This produces a sigmoidal curve where population starts low, grows expontentially, then plateaus at a carrying capacity, consistent with logistic growth. Logistic growth can be broadly divided into three stages: the lag phase, where growth is slow as initial population sizes are small, the exponential phase, where the population is larger and growth accelerates rapidly as resources are abundant, and the stationary phase, where growth slows as the population reaches the carrying capacity. 
 
  <p align="center">
      <img src="https://github.com/anoncoder555/logistic_growth/blob/main/plot1.png?raw=true" width="400" height="300" alt="Plot1">
@@ -40,7 +40,7 @@ In the third section (`plot_data_and_model.R`), I visualised the growth data and
 
 #### Results
 
-From my analysis, I estimated the below values for intial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). 
+From my analysis, I estimated the below values for initial population size ($N_0$), growth rate ($r$) and carrying capacity ($K$). 
 
 $N_0$ = exp(6.8941709) = **986.5075** \
 $r$ = **0.0100086** \
