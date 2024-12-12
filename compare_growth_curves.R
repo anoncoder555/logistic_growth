@@ -55,9 +55,9 @@ ggplot(growth_data, aes(x=Time)) +
   theme_minimal() +
   theme(
  plot.title = element_text(
-      face = "bold",        
-      size = 13,
-      hjust = 0.2),
+   face = "bold",        
+   size = 13,
+   hjust = 0.2),
  axis.title = element_text(
    hjust = 0.5,        
    size = 11),
